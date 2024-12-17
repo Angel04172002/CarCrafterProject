@@ -1,0 +1,22 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "name": "BMW",
+      "imageUrl": "https://www.bmw.bg/content/dam/bmw/common/all-models/m-series/series-overview/bmw-m-series-seo-overview-ms-04.jpg",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+    },
+    {
+      "id": "2",
+      "name": "Mercedes",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf_vWe4s5WNj18cPX6Dzg5lQbPNXHa9wRcsg&s",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+    },
+    {
+      "id": "e61c",
+      "name": "Lamborgini",
+      "imageUrl": "https://www.carscoops.com/wp-content/uploads/2022/10/Lamborghini-Aventador-SVJ-a.jpg",
+      "description": "aaaaa"
+    }
+  ]
+}
