@@ -1,15 +1,10 @@
 import Row from 'react-bootstrap/Row';
 import CarCard from './car-card/CarCard';
 import styles from './CarList.module.css';
-import { useState } from 'react';
 
 
 export default function CarList({ cars }) {
 
-
-    const deleteCar = (carId) => {
-        cars= cars.filter(id => id != carId);
-    }
 
     return (
         <>

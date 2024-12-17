@@ -2,12 +2,13 @@
     display: block;
     font-size: 1.2em;
     margin-right: 24.5em;
+    margin-left: 10em;
 }
 
 
 .searchField {
-    width: 30em;
-    margin-left: 20em !important;
+    width: 20em !important;
+    margin-left: 28em !important;
 }
 
 .searchBtn {

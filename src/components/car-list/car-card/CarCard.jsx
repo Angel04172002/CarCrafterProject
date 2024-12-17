@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faL, faTrash } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
-import CarDelete from "../../car-delete/CarDelete";
+// import CarDelete from "../../car-delete/CarDelete";
 
 
 export default function CarCard({ id, name, imageUrl, description }) {
