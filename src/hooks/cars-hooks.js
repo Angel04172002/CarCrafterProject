@@ -42,3 +42,17 @@ export function useFilterCars(carName) {
 export function useAddNewCar() {
     return carApi.addNewCar;
 }
+
+
+export function useDeleteCar() {
+    return (carId) => {
+        return carApi.deleteCar(carId) // Извиква API-то за изтриване
+            .then(() => {
+                console.log(`Car with ID ${carId} deleted successfully.`);
+            })
+            .catch((error) => {
+                console.error(`Error deleting car with ID ${carId}:`, error);
+            });
+    };
+}
+

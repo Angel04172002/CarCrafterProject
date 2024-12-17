@@ -20,3 +20,14 @@ export const filterCars = (carName) => {
 
     return requester.get(`${baseUrl}${queryString}`);
 }
+
+export function deleteCar(carId) {
+    return fetch(`${baseUrl}/${carId}`, {
+      method: "DELETE",
+    }).then((response) => {
+      if (!response.ok) {
+        throw new Error(`Failed to delete car with ID ${carId}`);
+      }
+    });
+  }
+  

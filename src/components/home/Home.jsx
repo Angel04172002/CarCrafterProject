@@ -1,5 +1,5 @@
 export default function Home() {
     return (
-        <p>Welcome!</p>
+        <p>Welcome to your car crafter!</p>
     )
 }
