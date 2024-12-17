@@ -42,4 +42,3 @@ export function useFilterCars(carName) {
 export function useAddNewCar() {
     return carApi.addNewCar;
 }
-
